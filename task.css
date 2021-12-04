@@ -1,0 +1,107 @@
+
+body{
+    height: 100vh;
+}.container{
+    width: 70%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    background-color: rgb(245, 253, 255);
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/********************first div**********************/
+.first, .second ,.third, .fourth, .fifth{
+    padding-bottom: 20px;
+}
+.first .image{
+    display: inline-block;
+    width: 25%;
+}
+.first .image img{
+    width: 180px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 45px;
+}
+.first .data{
+    display: inline-block;
+    width: 60%;
+    color: rgb(73, 83, 83);
+}
+.first .data h1, .title{
+    color: rgb(19, 158, 158);
+}
+.first .data h1{
+    margin-bottom: 0;
+}
+.first .data .title{
+    margin-bottom: 7px;
+}
+.first .data a{
+    text-decoration: none;
+    color:rgb(41, 46, 46);
+}/********************second div**********************/
+.second .obj{
+    display: inline-block;
+    width: 25%;
+    color: rgb(19, 158, 158);
+    font-size: xx-large;
+}
+.second .par1{
+    display: inline-block;
+    width: 60%;
+    color:rgb(41, 46, 46);
+}
+/********************third div******************/
+.third .edu{
+    display: block;
+    color:rgb(19, 158, 158);
+    font-size: xx-large;
+}
+.third .date{
+    display: inline-block;
+    width: 25%;
+    color:rgb(19, 158, 158);
+}
+.third .loc{
+    display: inline-block;
+    width: 60%;
+    color:rgb(41, 46, 46);
+}
+/********************fourth div******************/
+.fourth .vol{
+    display: block;
+    color:rgb(19, 158, 158);
+    font-size: xx-large;
+}
+.fourth .date{
+    display: inline-block;
+    width: 25%;
+    color:rgb(19, 158, 158);
+}
+.fourth .description{
+    display: inline-block;
+    width: 60%;
+    color:rgb(41, 46, 46);
+}
+/*******************fifth div*******************/
+.fifth .skills{
+    display: block;
+    color:rgb(19, 158, 158);
+    font-size: xx-large;
+}
+.fifth .topic{
+    display: inline-block;
+    width: 25%;
+    color:rgb(19, 158, 158);
+    margin-top: 0;
+}
+.fifth .description{
+    display: inline-block;
+    width: 60%;
+    color:rgb(41, 46, 46)
+}
+.description li{
+    float: left;
+    width: 30%;
+}
